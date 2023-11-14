@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Chatbot.css">
+</head>
+<body>
+  <div class="chat-container">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAACRCAMAAAD0BqoRAAAAjVBMVEX///9KoOz0NzU5muvW6Pq41vY+nOv0LyyZxvP/+fnzHxz6qaj0JiP+6+v6srHzGBT2cXDf7vt1s/D6v7/5nJv+8vKozfVjq+7u9f33ion1Tk0slurO4/mTw/NUpe3C3Pj81NP4lJP2enn2YWD0QT/2amj1VlT4g4L5oqHzDgd/uPH6uLf94OD7yMj0R0UsFaMqAAACmUlEQVR4nO2Z7XKyMBBGE5BAEYr4iQWttR9vX1p7/5fXQMAqNEBtDMz0OX90Ms7kuCy7WSAEAAAAAAAAAAAAAAAwRG5k9KOze9hPJOznO/0+i4nr2VI8d609To+e0Yj7rFlo7TYLGUYw1yrkP7UJGcadr9NoZrcbBQedRuOWLMoz6RZGwzeqplbfRt7d84s9ICMvGPtkFgzHyP53QxaDMvLGZP+q0ihyNk53lnUj48n7P1cao9EqZl0xp98Y8f3VGhGyZIx2g13dKBkVYeqodH0jK7bEF8ccipHJppEI07ZLmHQYUbYVYYo28UCM+DapCFPSHiZNRpStEhGmaVs26TKiNN6IMFm0OUz6jHg2hflC2BwmjUaUmk6x1FQuZUav5KDeiO9WlMupXEliZE/e1orOR6dGlLGlWHWkShIjw3Yrh0g1RtmGIpukXUVmVEOVEb/T7vN1WbnUb5TtWZTLb8PUhxGvA0WY0nqYWN6Yb7sYzdQZ8TpQlstqVzFFmu3ahQz7XaUR7yqiDkSr81uxMCWPrYO/PblQSGLEu0q9XJaanHevRcn2FqqN+P5lVymUygOCla0fjCYn2/vYXSokN/oql/kh/FgV0jjNPv35hxtIcF8eLo5Qk9FZuWSp+HrPc52JC7rwpfzCp9mIMrM8hJfdJf912ZKvQ6PRV7nMOdbMkxzXbnQsl+RsqOOD5DIJa0RNO6ky4tdI3GPheVPJxtsqcaLHSBzC2067ObqMskN42mm+1GdEOz4W0GjUERjBCEYwghGMYAQjGMEIRudGtenr56id15g1+j0qZ1qm5O8pQbzNold8svBTMiPGBiQk3kGGfVucYpmMKklIZVjxalhCxNr2bVBFTQ0BAAAAAAAAAAAAAAD8dT4BD5VBaUN/wv4AAAAASUVORK5CYII=">
+    
+    <div class="chat-box" id="chat-box">
+      <div class="message received">Hello! How can I help you?</div>
+    </div>
+    <div class="input-box">
+      <input type="text" id="user-input" placeholder="Type your message...">
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+
+  <script src="Chatbot.js"></script>
+</body>
+</html>                                                  

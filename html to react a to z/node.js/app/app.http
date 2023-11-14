@@ -1,0 +1,38 @@
+###
+// get all the player details from the data base 
+GET http://localhost:3004/players/
+
+
+###
+// post the new player into data base. 
+POST http://localhost:3004/players/
+Content-Type: application/json
+
+{
+  "playerName": "raghu",
+  "jerseyNumber": 67,
+  "role": "Batter"
+}
+
+
+###
+// get player details based on player ID 
+GET http://localhost:3004/players/1/
+
+
+###
+// update the player details based on player ID given 
+PUT http://localhost:3004/players/1/
+Content-Type: application/json
+
+{
+    "playerName":"GOPI",
+  "jerseyNumber": 80,
+  "role":"batter"
+}
+
+
+
+### 
+// Delete the player details by the given player Id 
+DELETE http://localhost:3004/players/6/

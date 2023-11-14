@@ -1,0 +1,33 @@
+
+.Main-Container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f5f8;
+    border: 2px solid rgb(6, 185, 216) ;
+    background-color: #94a3b8;
+  }
+  .heading-text{
+    font-size: 60px;
+  }
+  .paratext{
+    margin-top: 60px;
+  
+  }
+  
+  .Increment-Btn {
+    background-color: #007bff;
+    padding: 8px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .counterValue {
+    color: #c20a72;
+  }
+  

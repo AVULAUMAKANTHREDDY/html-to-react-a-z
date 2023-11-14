@@ -1,0 +1,284 @@
+/* Social buttons */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.buttons-container {
+  height: 100vh;
+  background:linear-gradient(0deg,#0000002b,#7fffff47) ,url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.btn {
+  border: 0;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Roboto";
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.Like {
+  background-color: #eab308;
+  margin-right: 50px;
+  width: 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+.Comment {
+  background-color: #ffffff;
+  margin-right: 70px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  color:black;
+
+}
+
+.Share {
+  background-color: #1d4ed8;
+  width: 60px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+
+
+}
+
+@media (min-width: 778px) {
+  .button-container {
+    flex-direction: row;
+  }
+}
+
+
+/* notification */
+
+.content-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #73dbaa;
+}
+
+.main-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #0f172a;
+  text-align: center;
+  min-width: 250px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.notification-container {
+  min-width: 250px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.message-conatiner {
+  background-color: #0b69ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.information {
+  background-color: #0b69ff;
+}
+
+.success {
+  background-color: #2dca73;
+}
+
+.warning {
+  background-color: #ffb800;
+}
+
+.error {
+  background-color: #ff0b37;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.message {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* boxes */
+
+.Boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  height: 100vh;
+  background-color: #6259b0;
+}
+
+.box-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.box-conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+  color: #ffffff;
+}
+
+.small {
+  background-color: #fbbf24;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medium {
+  background-color: #38bdf8;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large {
+  background-color: #ec4899;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* banner */
+.banner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e17ac6;
+}
+
+.banner-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-left: 0px;
+}
+
+/* technology */
+
+.technology-container {
+  display: flex;
+  justify-content: center;
+  background-color: #b6deff;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  
+}
+
+.technology-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+.technology-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #171f46;
+}
+
+.technology-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  width: 90%;
+  max-width: 550px;
+}
+
+.technology-cards-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .technology-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+

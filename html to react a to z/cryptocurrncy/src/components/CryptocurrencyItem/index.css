@@ -1,0 +1,39 @@
+.currency-coin-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 5px 20px;
+}
+
+@media screen and (min-width: 568px) {
+  .currency-coin-container {
+    padding: 5px 30px;
+  }
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-logo {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.values-container {
+  display: flex;
+}
+
+.currency {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #e24141;
+}
+
+.currency-in-usd {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #32f272;
+  margin-right: 25px;
+}

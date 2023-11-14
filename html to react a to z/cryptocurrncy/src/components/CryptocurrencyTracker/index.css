@@ -1,0 +1,9 @@
+.app-container {
+  background: linear-gradient(rgb(196, 127, 127),rgb(171, 163, 132),rgb(79, 79, 98));
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

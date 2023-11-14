@@ -1,0 +1,84 @@
+.photography-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 30px;
+    background: linear-gradient(rgb(200, 200, 132),rgb(122, 185, 122),rgb(102, 102, 168));
+  }
+  
+  
+  .photography-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1140px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .photography-content-container {
+      width: 85%;
+    }
+  }
+  
+  .nature-photo {
+    height: 300px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .nature-photo {
+      height: 500px;
+    }
+  }
+  
+  .nature-photography-heading {
+    font-family: 'Roboto';
+    font-size: 23px;
+    color: #6693d7;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .nature-photography-heading {
+      font-size: 30px;
+    }
+  }
+  
+  .photography-description {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    color: #110712;
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .photography-description {
+      font-size: 20px;
+    }
+  }
+  
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  
+
+.images-list {
+    list-style-type: none;
+  }
+  
+  .image-btn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .image-thumbnail {
+    opacity: 0.5;
+  }
+  
+  .select-image-thumbnail {
+    opacity: 1;
+  }

@@ -1,0 +1,35 @@
+.app-container {
+    background: linear-gradient(rgb(145, 145, 227),rgb(241, 174, 174),rgb(171, 223, 171));
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .faqs-container {
+    width: 90%;
+    background: linear-gradient(rgb(101, 101, 181),rgb(212, 137, 137),rgb(133, 198, 133));
+    border-radius: 10px;
+    padding: 40px 0px;
+  }
+  
+  .main-heading {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #ff0303;
+    background: linear-gradient(rgb(106, 106, 232),rgb(232, 118, 118),rgb(126, 230, 126));
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .main-heading {
+      font-size: 55px;
+    }
+  }
+  
+  .faqs-list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }

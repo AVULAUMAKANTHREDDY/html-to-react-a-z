@@ -1,0 +1,68 @@
+.clock-container {
+    background: linear-gradient(rgb(90, 86, 62),rgb(110, 71, 78),rgb(91, 91, 58));
+    border: 1px solid red;
+    padding: 50px;
+    margin: 50px;
+    /* height: 70vh;
+    width: 50vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+}
+.containers{
+ background: linear-gradient(rgb(163, 156, 112),rgb(209, 129, 144),rgb(174, 174, 111));
+padding: 50px;
+border-radius: 40px;
+box-shadow: inset;
+}
+.heading{
+font-size: 30px;
+font-weight: 500;
+margin: 40px;
+padding: 10px;
+align-items: center;
+/* background-color: cadetblue; */
+padding-left: 65px;
+margin-left: 70px;
+border: 1px dotted greenyellow;
+}
+.count{
+font-size:15px ;
+font-weight: 400;
+color: red;
+padding-right: 95px;
+
+margin-left: 80px;
+border: 1px solid goldenrod;
+
+}
+.para{
+color: #0d0606;
+border: 1px solid blueviolet;
+text-align: center;
+/* background-color: rgb(184, 147, 120); */
+/* padding-left: 80px;
+margin-left: 95px; */
+}
+
+.btn-button{
+  background-color:#1db05f;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 30px;
+}
+
+.btn-button-1{
+   background-color:#ef0d36;
+   padding: 10px;
+   margin: 40px;
+   border-radius: 30px;
+}
+
+.button{
+    background-color:#eaa800;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 30px;
+}
